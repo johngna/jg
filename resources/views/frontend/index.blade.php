@@ -67,7 +67,7 @@
 
 
                             <div class="kt-pricing-1 kt-pricing-1--fixed">
-                                <div class="kt-pricing-1__items row"  style="height: 1500px">
+                                <div class="kt-pricing-1__items row"  style="height: 100%">
                                     <div class="kt-pricing-1__item col-lg-12">
                                         <div class="kt-pricing-1__visual">
                                             <div class="kt-pricing-1__hexagon1"></div>
