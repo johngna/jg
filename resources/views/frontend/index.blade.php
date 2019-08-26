@@ -63,21 +63,11 @@
                 <!-- begin:: Content -->
                 <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 
-                    <!--begin::Portlet-->
-                    <div class="kt-portlet">
-                        <div class="kt-portlet__head">
-                            <div class="kt-portlet__head-label">
-										<span class="kt-portlet__head-icon">
-											<i class="la la-puzzle-piece"></i>
-										</span>
-                                <h3 class="kt-portlet__head-title">
-                                   ANIMAX - HOSPITAL VETERINÁRIO
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="kt-portlet__body">
+
+
+
                             <div class="kt-pricing-1 kt-pricing-1--fixed">
-                                <div class="kt-pricing-1__items row">
+                                <div class="kt-pricing-1__items row"  style="height: 1500px">
                                     <div class="kt-pricing-1__item col-lg-12">
                                         <div class="kt-pricing-1__visual">
                                             <div class="kt-pricing-1__hexagon1"></div>
@@ -98,8 +88,8 @@
 
                                 </div>
                             </div>
-                        </div>
-                    </div>
+
+
 
 
 
