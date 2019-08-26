@@ -92,7 +92,7 @@
 													<span>Histórico de Pagamentos</span>
 												</span>
                                         <div class="kt-pricing-1__btn">
-                                            <button type="button" class="btn btn-pill  btn-brand btn-wide btn-uppercase btn-bolder btn-sm">Acessar</button>
+                                            <a href="{{url('login')}}"  class="btn btn-pill  btn-brand btn-wide btn-uppercase btn-bolder btn-sm">Acessar</a>
                                         </div>
                                     </div>
 

@@ -101,7 +101,7 @@
                 <div class="kt-login__container">
                     <div class="kt-login__logo">
                         <a href="#">
-                            <img src="assets/media/logos/logo_jg.png" width="50px">
+                            {{--<img src="assets/media/logos/logo_jg.png" width="50px">--}}
                         </a>
                     </div>
                     <div class="kt-login__signin">
