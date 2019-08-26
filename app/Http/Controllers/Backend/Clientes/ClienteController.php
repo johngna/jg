@@ -9,4 +9,21 @@ class ClienteController extends Controller
 {
 
     public $modelo = Cliente::class;
+
+
+    public function index()
+    {
+
+        $clientes = Cliente::all();
+
+        return view('backend.clientes.index', compact('clientes'));
+
+    }
+
+    public function create(){
+
+        return view('backend.clientes.create');
+    }
+
+
 }

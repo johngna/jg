@@ -23,6 +23,18 @@ class CreateClientesTable extends Migration
             $table->string('rg')->nullable();
             $table->string('orgao_emissor')->nullable();
             $table->enum('tipo',['Física','Jurídica']);
+            $table->string('cep')->nullable();
+            $table->string('cep')->nullable();
+            $table->string('cep')->nullable();
+            $table->string('endereco')->nullable();
+            $table->string('numero')->nullable();
+            $table->string('complemento')->nullable();
+            $table->string('bairro')->nullable();
+            $table->string('cidade')->nullable();
+            $table->string('estado')->nullable();
+            $table->text('referencia')->nullable();
+            $table->text('observacoes')->nullable();
+
             $table->timestamps();
         });
     }
