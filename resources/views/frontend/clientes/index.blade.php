@@ -182,7 +182,7 @@
 
 
     <!-- begin::Quick Panel -->
-    @include('frontend.includes.qpanel')
+    {{--@include('frontend.includes.qpanel')--}}
 
     <!-- end::Quick Panel -->
 
