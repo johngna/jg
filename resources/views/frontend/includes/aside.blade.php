@@ -6,7 +6,7 @@
         <div class="kt-aside__brand-logo">
             <a href="demo1/index.html">
                 {{--<img alt="Logo" src="./assets/media/logos/logo-light.png" />--}}
-                <h4 style="color:white">AN</h4>
+                <h4 style="color:white">ANIMAX</h4>
             </a>
         </div>
         <div class="kt-aside__brand-tools">
