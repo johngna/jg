@@ -143,53 +143,121 @@
                     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
                         @include('includes.partials.messages')
 
-                        <div class="col-xl-4">
-                            <!--begin:: Widgets/Blog-->
-                            <div class="kt-portlet kt-portlet--height-fluid kt-widget19">
-                                <div class="kt-portlet__body kt-portlet__body--fit kt-portlet__body--unfill">
-                                    <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides" style="min-height: 200px; background-image: url(./assets/media//products/product21.jpg)">
-                                        <h3 class="kt-widget19__title kt-font-light">
-                                            Conheça o CBCA
-                                        </h3>
-                                        <div class="kt-widget19__shadow"></div>
-                                        <div class="kt-widget19__labels">
-                                            <a href="#" class="btn btn-label-light-o2 btn-bold ">Artigo</a>
-                                        </div>
-                                    </div>
+
+                        <div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--height-fluid">
+                            <div class="kt-portlet__head kt-portlet__space-x">
+                                <div class="kt-portlet__head-label">
+
                                 </div>
-                                <div class="kt-portlet__body">
-                                    <div class="kt-widget19__wrapper">
-                                        <div class="kt-widget19__content">
-                                            <div class="kt-widget19__userpic">
-                                                <img src="./assets/media//users/user1.jpg" alt="">
+
+                            </div>
+                            <div class="kt-portlet__body">
+                                <div class="kt-widget28">
+                                    {{-- <div class="kt-widget28__visual" style="background-image: url(./assets/media//misc/bg-2.jpg)"></div>--}}
+                                    <div class="kt-widget28__wrapper kt-portlet__space-x">
+
+                                        <!-- begin::Tab Content -->
+                                        <div class="tab-content">
+                                            <div id="menu11" class="tab-pane">
+                                                <div class="kt-widget28__tab-items">
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Company Name</span>
+                                                        <span>SLT Back-end Solutions</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>INE Number</span>
+                                                        <span>D330-1234562546</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Total Charges</span>
+                                                        <span>USD 1,250.000</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Project Description</span>
+                                                        <span>Creating Back-end Components</span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="kt-widget19__info">
-                                                <a href="#" class="kt-widget19__username">
-                                                    Administrador
-                                                </a>
-                                                <span class="kt-widget19__time">
+                                            <div id="menu21" class="tab-pane fade">
+                                                <div class="kt-widget28__tab-items">
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Project Description</span>
+                                                        <span>Back-End Web Architecture</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Total Charges</span>
+                                                        <span>USD 2,170.000</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>INE Number</span>
+                                                        <span>D110-1234562546</span>
+                                                    </div>
+                                                    <div class="kt-widget28__tab-item">
+                                                        <span>Company Name</span>
+                                                        <span>SLT Back-end Solutions</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="menu31" class="tab-pane fade active">
+
+                                                    <!--begin:: Widgets/Blog-->
+                                                    <div class="kt-portlet kt-portlet--height-fluid kt-widget19">
+                                                        <div class="kt-portlet__body kt-portlet__body--fit kt-portlet__body--unfill">
+                                                            <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides" style="min-height: 200px; background-image: url(./assets/media//products/product21.jpg)">
+                                                                <h3 class="kt-widget19__title kt-font-light">
+                                                                    Conheça o CBCA
+                                                                </h3>
+                                                                <div class="kt-widget19__shadow"></div>
+                                                                <div class="kt-widget19__labels">
+                                                                    <a href="#" class="btn btn-label-light-o2 btn-bold ">Artigo</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="kt-portlet__body">
+                                                            <div class="kt-widget19__wrapper">
+                                                                <div class="kt-widget19__content">
+                                                                    <div class="kt-widget19__userpic">
+                                                                        <img src="./assets/media//users/user1.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="kt-widget19__info">
+                                                                        <a href="#" class="kt-widget19__username">
+                                                                            Administrador
+                                                                        </a>
+                                                                        <span class="kt-widget19__time">
 						Presidente do Conselho do CBCA
 					</span>
-                                            </div>
-                                            <div class="kt-widget19__stats">
+                                                                    </div>
+                                                                    <div class="kt-widget19__stats">
                     <span class="kt-widget19__number kt-font-brand">
 						18
 					</span>
-                                                <a href="#" class="kt-widget19__comment">
-                                                    Comentários
-                                                </a>
+                                                                        <a href="#" class="kt-widget19__comment">
+                                                                            Comentários
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="kt-widget19__text">
+                                                                    O Centro Brasileiro de Cuidado Animal é uma associação sem fins lucrativos, mantenedora do Hospital Veterinário ANIMAX
+                                                                </div>
+                                                            </div>
+                                                            <div class="kt-widget19__action">
+                                                                <a href="#" class="btn btn-sm btn-label-brand btn-bold">Leia Mais...</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                             </div>
                                         </div>
-                                        <div class="kt-widget19__text">
-                                            O Centro Brasileiro de Cuidado Animal é uma associação sem fins lucrativos, mantenedora do Hospital Veterinário ANIMAX
-                                        </div>
-                                    </div>
-                                    <div class="kt-widget19__action">
-                                        <a href="#" class="btn btn-sm btn-label-brand btn-bold">Leia Mais...</a>
+                                        <!-- end::Tab Content -->
                                     </div>
                                 </div>
                             </div>
-                            <!--end:: Widgets/Blog-->    </div>
+                        </div>
+
+
+
+
+
                     </div>
 
                     <!-- end:: Content -->
