@@ -111,7 +111,7 @@
                         <form class="kt-form" action="{{route('frontend.auth.cliente.login')}}" method="POST">
                             @csrf
                             <div class="input-group">
-                                <input class="form-control" type="text" placeholder="CPF" name="cpf" >
+                                <input class="form-control" type="number" placeholder="CPF" name="cpf" >
                             </div>
                             {{--<div class="input-group">--}}
                                 {{--<input class="form-control" type="password" placeholder="Senha" name="password">--}}
