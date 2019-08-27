@@ -10,6 +10,7 @@ use App\Helpers\Auth\SocialiteHelper;
 use App\Events\Frontend\Auth\UserLoggedIn;
 use App\Events\Frontend\Auth\UserLoggedOut;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use DB;
 
 /**
  * Class LoginController.
@@ -144,4 +145,26 @@ class LoginController extends Controller
 
         return redirect()->route('frontend.auth.login');
     }
+
+
+
+    public function cliente_login(Request $request){
+
+
+        $cliente = DB::table('clientes')->where('cpf_cnpj', $request->cpf)->first();
+
+        if($cliente){
+
+
+            return view('frontend.clientes.index');
+
+        };
+
+
+        return redirect()->back();
+
+
+    }
+
+
 }

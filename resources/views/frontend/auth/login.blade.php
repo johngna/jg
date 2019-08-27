@@ -108,10 +108,10 @@
                         <div class="kt-login__head">
                             <h3 class="kt-login__title">Entrar no sistema</h3>
                         </div>
-                        <form class="kt-form" action="{{route('frontend.auth.login.post')}}" method="POST">
+                        <form class="kt-form" action="{{route('frontend.auth.cliente.login')}}" method="POST">
                             @csrf
                             <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Email" name="email" autocomplete="off">
+                                <input class="form-control" type="text" placeholder="CPF" name="cpf" >
                             </div>
                             <div class="input-group">
                                 <input class="form-control" type="password" placeholder="Senha" name="password">
@@ -185,7 +185,7 @@
 									Não tem uma conta ainda ?
 								</span>
                         &nbsp;&nbsp;
-                        <a href="javascript:;" id="kt_login_signup" class="kt-login__account-link">Cadastrar!</a>
+                        <a href="javascript:;" id="kt_login_signup" class="kt-login__account-link">Solicitar!</a>
                     </div>
                 </div>
             </div>
