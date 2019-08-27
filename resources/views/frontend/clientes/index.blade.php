@@ -158,7 +158,7 @@
 
                                         <!-- begin::Tab Content -->
                                         <div class="tab-content">
-                                            <div id="menu11" class="tab-pane">
+                                            <div id="menu11" class="tab-pane active">
                                                 <div class="kt-widget28__tab-items">
                                                     <div class="kt-widget28__tab-item">
                                                         <span>Company Name</span>
@@ -198,7 +198,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div id="menu31" class="tab-pane fade active">
+                                            <div id="menu31" class="tab-pane fade">
 
                                                 <div class="row">
 
