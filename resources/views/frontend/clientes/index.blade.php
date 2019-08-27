@@ -149,11 +149,11 @@
                                 <div class="kt-portlet__body kt-portlet__body--fit kt-portlet__body--unfill">
                                     <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides" style="min-height: 300px; background-image: url(./assets/media//products/product4.jpg)">
                                         <h3 class="kt-widget19__title kt-font-light">
-                                            Introducing New Feature
+                                            Conheça o CBCA
                                         </h3>
                                         <div class="kt-widget19__shadow"></div>
                                         <div class="kt-widget19__labels">
-                                            <a href="#" class="btn btn-label-light-o2 btn-bold ">Recent</a>
+                                            <a href="#" class="btn btn-label-light-o2 btn-bold ">Artigo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -165,10 +165,10 @@
                                             </div>
                                             <div class="kt-widget19__info">
                                                 <a href="#" class="kt-widget19__username">
-                                                    Anna Krox
+                                                    Administrador
                                                 </a>
                                                 <span class="kt-widget19__time">
-						UX/UI Designer, Google
+						Presidente do Conselho do CBCA
 					</span>
                                             </div>
                                             <div class="kt-widget19__stats">
@@ -176,16 +176,16 @@
 						18
 					</span>
                                                 <a href="#" class="kt-widget19__comment">
-                                                    Comments
+                                                    Comentários
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="kt-widget19__text">
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting  scrambled a type specimen book text of the dummy text of the printing printing and typesetting industry scrambled dummy text of the printing.
+                                            O Centro Brasileiro de Cuidado Animal é uma associação sem fins lucrativos, mantenedora do Hospital Veterinário ANIMAX
                                         </div>
                                     </div>
                                     <div class="kt-widget19__action">
-                                        <a href="#" class="btn btn-sm btn-label-brand btn-bold">Read More...</a>
+                                        <a href="#" class="btn btn-sm btn-label-brand btn-bold">Leia Mais...</a>
                                     </div>
                                 </div>
                             </div>
