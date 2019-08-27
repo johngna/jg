@@ -749,7 +749,7 @@ Use dot badge instead of animated pulse effect:
 
 
 
-        
+
 
 
         <!--begin: User Bar -->

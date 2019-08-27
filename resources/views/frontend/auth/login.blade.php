@@ -113,9 +113,9 @@
                             <div class="input-group">
                                 <input class="form-control" type="text" placeholder="CPF" name="cpf" >
                             </div>
-                            <div class="input-group">
-                                <input class="form-control" type="password" placeholder="Senha" name="password">
-                            </div>
+                            {{--<div class="input-group">--}}
+                                {{--<input class="form-control" type="password" placeholder="Senha" name="password">--}}
+                            {{--</div>--}}
                             <div class="row kt-login__extra">
                                 <div class="col">
                                     <label class="kt-checkbox">
